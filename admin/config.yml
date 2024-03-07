@@ -7,9 +7,9 @@ media_folder: "assets/cms" # Media files will be stored in the repo under src/as
 public_folder: "/assets/cms" # The src attribute for uploaded media will begin with assets/images/posts
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "src/blogs" # The path to the folder where the documents are stored
+  - name: "plangob" # Used in routes, e.g., /admin/collections/blog
+    label: "Plan de Gobierno" # Used in the UI
+    folder: "src/plangob" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -27,7 +27,51 @@ collections:
           label: "Highlight",
           widget: "boolean",
           default: false,
-          hint: "Display posts in home's highlights",
+        }
+  - name: "iniciativas" # Used in routes, e.g., /admin/collections/blog
+    label: "Iniciativas" # Used in the UI
+    folder: "src/iniciativas" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Title" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { name: "description", label: "Description" }
+      - { name: "autor", label: "Autor" }
+      - { name: "correo", label: "Correo" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "body", label: "Body", widget: "markdown" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
+        }
+  - name: "avances" # Used in routes, e.g., /admin/collections/blog
+    label: "Avances" # Used in the UI
+    folder: "src/avances" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false # Disable the editor preview and use instead 'preview links'
+    fields: # The fields for each document, usually in front matter
+      - { name: "title", label: "Institución" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { name: "description", label: "Description" }
+      - { name: "licencia", label: "Licencia Abierta",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - { name: "formato", label: "Formato Abierto y Legible por máquina",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - { name: "disp_descarga", label: "Disponible en una sola descarga",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - { name: "actualizados", label: "Datos Actualizados",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - { name: "disp_publico", label: "Disponible Públicamente",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - { name: "disp_sin_cargo", label: "Disponible sin cargo",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - { name: "puntaje", label: "Puntaje",   widget: "number", value_type: "int", min: 0, max: 100, hint: "Debe ser un número del 0 al 100" }
+      - {
+          name: "highlight",
+          label: "Highlight",
+          widget: "boolean",
+          default: false,
         }
   - name: "recursos" # Used in routes, e.g., /admin/collections/blog
     label: "Recursos" # Used in the UI
@@ -46,6 +90,5 @@ collections:
           label: "Highlight",
           widget: "boolean",
           default: false,
-          hint: "Display posts in home's highlights",
         }
 show_preview_links: true
