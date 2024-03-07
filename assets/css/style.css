@@ -5665,6 +5665,7 @@ body:not(.top-search-open)
 }
 
 @media (min-width: 992px) {
+
   .page-menu-nav {
     display: -ms-flex;
     display: flex;
@@ -6120,6 +6121,22 @@ body:not(.top-search-open)
   overflow: hidden;
   background-image: url('/assets/img/slider/slider-home.png');
   background-size:cover;
+}
+
+.h-100-res{
+  height: 1000px;
+}
+
+@media (max-width:400px){
+  .slider-element {
+    background-image: url('/assets/img/slider/slider-home-movil.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .h-100-res{
+    height: 500px;
+  }
 }
 
 .slider-parallax {
