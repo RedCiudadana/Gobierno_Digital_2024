@@ -19516,6 +19516,13 @@ label.checkbox {
   }
 }
 
-#flourish-header-title{
-  text-align: left!important;
+/* Popup de slider */
+.tooltip {
+  display: none;
+  position: fixed;
+  border: 1px solid #333;
+  background-color: white;
+  padding: 10px;
+  z-index: 100;
+  pointer-events: none; /* Asegúrate de que no bloquea el mouse */
 }
