@@ -6118,6 +6118,8 @@ body:not(.top-search-open)
   position: relative;
   width: 100%;
   overflow: hidden;
+  background-image: url('/assets/img/slider/slider-home.png');
+  background-size:cover;
 }
 
 .slider-parallax {
@@ -19556,17 +19558,6 @@ label.checkbox {
   }
 }
 
-/* Popup de slider */
-.tooltip {
-  display: none;
-  position: fixed;
-  border: 1px solid #333;
-  background-color: white;
-  padding: 10px;
-  z-index: 100;
-  pointer-events: none; /* Asegúrate de que no bloquea el mouse */
-}
-
 .border-right-res{
   position: relative;
 }
@@ -19599,4 +19590,142 @@ label.checkbox {
 
 .btn:hover{
   background-color: #03324e;
+}
+
+/* Puntos de interes del slider */
+
+.interes-1{
+  position: absolute; 
+  left: 100px; 
+  top: 470px;
+}
+
+.interes-2{
+  position: absolute; 
+  left: 450px; 
+  top: 520px;
+}
+
+.interes-3{
+  position: absolute; 
+  left: 850px; 
+  top: 320px;
+}
+
+.interes-4{
+  position: absolute; 
+  left: 1250px; 
+  top: 520px;
+}
+
+@media only screen and (min-width: 1500px) {
+  .interes-1{
+    position: absolute; 
+    left: 100px; 
+    top: 470px;
+  }
+  
+  .interes-2{
+    position: absolute; 
+    left: 495px; 
+    top: 490px;
+  }
+  
+  .interes-3{
+    position: absolute; 
+    left: 850px; 
+    top: 365px;
+  }
+  
+  .interes-4{
+    position: absolute; 
+    left: 1300px; 
+    top: 490px;
+  }
+}
+
+
+@media only screen and (min-width: 1698px) {
+  .interes-1{
+    position: absolute; 
+    left: 100px; 
+    top: 470px;
+  }
+  
+  .interes-2{
+    position: absolute; 
+    left: 450px; 
+    top: 510px;
+  }
+  
+  .interes-3{
+    position: absolute; 
+    left: 850px; 
+    top: 320px;
+  }
+  
+  .interes-4{
+    position: absolute; 
+    left: 1250px; 
+    top: 510px;
+  }
+}
+
+
+@media only screen and (min-width: 2030px){
+  .interes-1{
+    position: absolute; 
+    left: 0px; 
+    top: 580px;
+  }
+  
+  .interes-2{
+    position: absolute; 
+    left: 412px; 
+    top: 630px;
+  }
+  
+  .interes-3{
+    position: absolute; 
+    left: 830px; 
+    top: 400px;
+  }
+  
+  .interes-4{
+    position: absolute; 
+    left: 1370px; 
+    top: 630px;
+  }
+}
+
+/* Opcional: Estilos para el punto de interés */
+.interest-point {
+  width: 70px;
+  height: 90px;
+  background-image: url('/assets/img/slider/slider_pofi.png');
+  background-size: cover;
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+@media only screen and (max-width: 960px) {
+  .interest-point{
+    display: none;
+  }
+}
+
+.pop-up-slider{
+  display: none;
+  position: absolute; 
+  width: 200px; 
+  background-color: white; 
+  padding: 10px; 
+  border: 1px solid #03324e;
+  border-radius: 5px;  
+  top: 90px;
+  left: -100%;
+}
+
+/* Popup de slider */
+.interest-point:hover .pop-up-slider {
+  display: block;
 }
