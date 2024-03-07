@@ -18,9 +18,8 @@ collections:
       - { name: "title", label: "Title" }
       - { label: "Image", name: "image", widget: "image" }
       - { name: "description", label: "Description" }
-      - { name: "autor", label: "Autor" }
-      - { name: "correo", label: "Correo" }
       - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "tiempo", label: "Tiempo de Lectura" }
       - { name: "body", label: "Body", widget: "markdown" }
       - {
           name: "highlight",
@@ -39,8 +38,6 @@ collections:
       - { name: "title", label: "Title" }
       - { label: "Image", name: "image", widget: "image" }
       - { name: "description", label: "Description" }
-      - { name: "autor", label: "Autor" }
-      - { name: "correo", label: "Correo" }
       - { name: "date", label: "Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
       - {
