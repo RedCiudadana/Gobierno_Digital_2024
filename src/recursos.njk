@@ -41,14 +41,21 @@ permalink: "recursos/index.html"
         <section class="px-2">
             <div class="container clearfix ">
                 <div class="row py-6">
-                    
-                  <div class="col-lg-9">
-                    
-                  </div>
-
-                  <div class="col-lg-3">
-
-                  </div>
+                    {% for recurso in collections.recursos %}
+                    <div class="col-lg-6">
+                        
+                        <div class="recursos my-4">
+                            <img style="width: 40%;" src="/assets/img/P1.png">
+                            <div class="p-4">
+                                <h2 class="text-titles">{{recurso.data.title}}</h2>
+                                <span>{{recurso.data.date | dateFormat('DD/MM/YYYY')}}</span>
+                                <p>{{recurso.data.description}}</p>
+                                <a class="btn" href="{{recurso.data.recurso}}">Descargar <i class="fa-solid fa-down-long"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    {% endfor %}
 
                 </div>
             </div>

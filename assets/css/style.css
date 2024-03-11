@@ -19751,3 +19751,14 @@ label.checkbox {
 .interest-point:hover .pop-up-slider {
   display: block;
 }
+
+.iniciativas{
+  display: flex;
+  background-color: #f9fbfc;
+  padding: 2%;
+}
+
+.recursos{
+  display: flex;
+  background-color: #f9fbfc;
+}
