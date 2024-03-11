@@ -1,6 +1,6 @@
 ---
 title: Iniciativa de Prueba
-image: /assets/cms/banners-45.png
+image: /assets/cms/p1.png
 description: Es la iniciativa de prueba
 date: 2024-03-07T17:05:11.166Z
 highlight: false
