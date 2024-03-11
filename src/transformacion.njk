@@ -1,0 +1,102 @@
+---
+permalink: "transformacion/index.html"
+---
+
+{% extends "src/base.njk" %}
+
+{% block head %}
+<title>Plan de Gobierno | Gobierno Digital</title>
+{% endblock %}
+
+{% block content %}
+
+        <!-- Slider
+		============================================= -->
+		<section id="slider" class="bg-color">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-lg-6 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+
+						<h2 class="text-slider" style="font-size:40px!important">Transformación Digital del Estado, mejores servicios para las personas</h2>
+						<h2 class="text-slider2">
+                            La Transformación Digital del Estado apunta a construir un Estado 
+                            Moderno, que entregue mejores oportunidades y seguridades a la 
+                            ciudadanía; un Estado Innovador que impulse el talento humano
+                            para entregar mejorers servicios; y un Estado Sustentable y Eficiente
+                            queahorre costos innecesarios y progresivamente prescinda del 
+                            uso de papel.
+						</h2>
+
+					</div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-end align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+
+						<img src="/assets/img/slider/plangobierno.png">
+
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <!-- Lecturas
+        ============================================= -->
+
+        <section class="px-2">
+            <div class="container clearfix ">
+                <div class="row py-6">
+                    
+                  <div class="col-lg-9">
+                    {% for trans in collections.transformacion%}
+                    <div class="py-4">
+                        <div class="centered-between">
+                            <p>{{trans.data.tiempo}}. de lectura</p>
+                            <a class="btn" href="">Leer Más <i class="fa-solid fa-right-long"></i></a>
+                        </div>
+                        <div class="linea-verde"></div>
+                        <h2 class="text-titles3">{{trans.data.title}}</h2>
+                        {{trans.content | safe}}
+                    </div>
+                    {% endfor %}
+
+                    {% for trans in collections.transformacion%}
+                    <div class="py-4">
+                        <div class="centered-between">
+                            <p>{{trans.data.tiempo}}. de lectura</p>
+                            <a class="btn" href="">Leer Más <i class="fa-solid fa-right-long"></i></a>
+                        </div>
+                        <div class="linea-verde"></div>
+                        <h2 class="text-titles3">{{trans.data.title}}</h2>
+                        {{trans.content | safe}}
+                    </div>
+                    {% endfor %}
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="tabla_contenidos">
+                        <h2 class="text-titles3">Tabla de Contenidos</h2>
+                        <div class="linea-gris"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <div class="linea-gris"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <div class="linea-gris"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                        <div class="linea-gris"></div>
+                        <div class="d-flex">
+                            <img style="width: 30px;" src="/assets/img/iconos/REDES-34.png">
+                            <img style="width: 30px;" src="/assets/img/iconos/REDES-35.png">
+                            <img style="width: 30px;" src="/assets/img/iconos/REDES-36.png">
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+        </section>
+
+{% endblock %}

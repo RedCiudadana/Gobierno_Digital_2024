@@ -19597,6 +19597,33 @@ label.checkbox {
   }
 }
 
+.linea-verde{
+  height: 5px;
+  width: 100%;
+  border-bottom: 1px solid #03ac8a;
+  margin-bottom: 20px;
+}
+
+.linea-gris{
+  height: 5px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tabla_contenidos{
+  padding: 20px;
+  background-color: #f9fbfc;
+  width: 100%;
+}
+
+.centered-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .btn{
   background-color: #03ac8a;
   color: #fff!important;
