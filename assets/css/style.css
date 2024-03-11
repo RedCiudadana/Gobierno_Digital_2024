@@ -6121,10 +6121,11 @@ body:not(.top-search-open)
   overflow: hidden;
   background-image: url('/assets/img/slider/slider-home.png');
   background-size:cover;
+  background-position: center -100px;
 }
 
 .h-100-res{
-  height: 1000px;
+  height: 900px;
 }
 
 @media (max-width:400px){
@@ -19611,53 +19612,29 @@ label.checkbox {
 
 /* Puntos de interes del slider */
 
-.interes-1{
-  position: absolute; 
-  left: 100px; 
-  top: 470px;
-}
-
-.interes-2{
-  position: absolute; 
-  left: 450px; 
-  top: 520px;
-}
-
-.interes-3{
-  position: absolute; 
-  left: 850px; 
-  top: 320px;
-}
-
-.interes-4{
-  position: absolute; 
-  left: 1250px; 
-  top: 520px;
-}
-
 @media only screen and (min-width: 1500px) {
   .interes-1{
     position: absolute; 
-    left: 100px; 
-    top: 470px;
+    left: 40px; 
+    top: 420px;
   }
   
   .interes-2{
     position: absolute; 
     left: 495px; 
-    top: 490px;
+    top: 440px;
   }
   
   .interes-3{
     position: absolute; 
     left: 850px; 
-    top: 365px;
+    top: 400px;
   }
   
   .interes-4{
     position: absolute; 
-    left: 1300px; 
-    top: 490px;
+    left: 1200px; 
+    top: 420px;
   }
 }
 
@@ -19665,26 +19642,26 @@ label.checkbox {
 @media only screen and (min-width: 1698px) {
   .interes-1{
     position: absolute; 
-    left: 100px; 
-    top: 470px;
+    left: 0px; 
+    top: 440px;
   }
   
   .interes-2{
     position: absolute; 
     left: 450px; 
-    top: 510px;
+    top: 460px;
   }
   
   .interes-3{
     position: absolute; 
-    left: 850px; 
-    top: 320px;
+    left: 800px; 
+    top: 400px;
   }
   
   .interes-4{
     position: absolute; 
-    left: 1250px; 
-    top: 510px;
+    left: 1150px; 
+    top: 440px;
   }
 }
 
@@ -19692,26 +19669,26 @@ label.checkbox {
 @media only screen and (min-width: 2030px){
   .interes-1{
     position: absolute; 
-    left: 0px; 
+    left: -100px; 
     top: 580px;
   }
   
   .interes-2{
     position: absolute; 
     left: 412px; 
-    top: 630px;
+    top: 600px;
   }
   
   .interes-3{
     position: absolute; 
     left: 830px; 
-    top: 400px;
+    top: 520px;
   }
   
   .interes-4{
     position: absolute; 
-    left: 1370px; 
-    top: 630px;
+    left: 1250px; 
+    top: 580px;
   }
 }
 
@@ -19740,6 +19717,7 @@ label.checkbox {
   border-radius: 5px;  
   top: 90px;
   left: -100%;
+  text-align: center;
 }
 
 /* Popup de slider */

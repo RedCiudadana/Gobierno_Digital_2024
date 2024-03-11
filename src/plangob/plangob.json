@@ -1,5 +1,0 @@
-{
-    "tags": "plangob",
-    "permalink": "plangob/{{ page.fileSlug }}/index.html",
-    "layout": "layouts/plangob.njk"
-}
