@@ -184,6 +184,22 @@
 		
 		})(jQuery);
 	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Agrega la funcionalidad del botón de hamburguesa
+			document.querySelector('.menu-toggle').addEventListener('click', function() {
+				var menuContainer = document.querySelector('.menu-container');
+
+				// Cambia el estilo de visualización del menú
+				if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+					menuContainer.style.display = 'block';
+				} else {
+					menuContainer.style.display = 'none';
+				}
+			});
+		});
+	</script>
 	
     {% block body_javascripts %}
 
