@@ -19639,6 +19639,26 @@ label.checkbox {
 
 /* Puntos de interes del slider */
 
+/* Puntos de interes del slider */
+
+@media only screen and (max-width: 1500px) {
+  .interes-1{
+    display: none;
+  }
+  
+  .interes-2{
+    display: none;
+  }
+  
+  .interes-3{
+    display: none;
+  }
+  
+  .interes-4{
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1500px) {
   .interes-1{
     position: absolute; 
