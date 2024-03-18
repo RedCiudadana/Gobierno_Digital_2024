@@ -19782,3 +19782,16 @@ label.checkbox {
   display: flex;
   background-color: #f9fbfc;
 }
+
+.cuadro_plataformas{
+  text-align: center;
+  background-color: #fff;
+  padding: 15% 10%;
+  border-radius: 15px;
+}
+
+.cuadro_plataformas img{
+  margin: auto;
+  width: 150px;
+  margin-bottom: 20px;
+}
