@@ -201,14 +201,23 @@ permalink: "index.html"
         <section class="px-2">
             <div class="container clearfix ">
                 <div class="row py-6">
+
+                    {% for video in collections.videos | limit(1) %}
                     
                     <div class="col-lg-6 text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gU6sa65YEeM?si=9P67v0bxagpJQVaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
 
+                    {% endfor %}
+
+                    {% for video in collections.videos | limit(1) %}
+                    
                     <div class="col-lg-6 text-center">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gU6sa65YEeM?si=9P67v0bxagpJQVaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="{{video.data.link}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
+
+                    {% endfor %}
+
 
                 </div>
             </div>

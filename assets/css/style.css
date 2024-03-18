@@ -19788,6 +19788,7 @@ label.checkbox {
   background-color: #fff;
   padding: 15% 10%;
   border-radius: 15px;
+  transition: 0.5s;
 }
 
 .cuadro_plataformas img{
