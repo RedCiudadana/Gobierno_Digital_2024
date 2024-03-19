@@ -19792,6 +19792,10 @@ label.checkbox {
   height: 100%;
 }
 
+.cuadro_plataformas h2{
+  margin-bottom: 5px;
+}
+
 .cuadro_plataformas img{
   margin: auto;
   width: 150px;
