@@ -209,13 +209,13 @@ span{
 
 body {
   line-height: 1.5;
-  color: #073753;
+  color: #02324f;
   font-family: "Metropolis-Medium", sans-serif !important;
 }
 
 a {
   text-decoration: none !important;
-  color: #073753;
+  color: #02324f;
 }
 
 a:hover {
@@ -250,7 +250,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #073753;
+  color: #02324f;
   font-weight: 600;
   line-height: 1.5;
   margin: 0 0 30px 0;
@@ -520,7 +520,7 @@ span.middot {
 
 .bg-color,
 .bg-color #header-wrap {
-  background-color: #f9fbfc !important;
+  background-color: #f0f7fc !important;
 }
 
 .bg-image{
@@ -532,11 +532,11 @@ span.middot {
 }
 
 .color {
-  color: #f9fbfc !important;
+  color: #f0f7fc !important;
 }
 
 .border-color {
-  border-color: #f9fbfc !important;
+  border-color: #f0f7fc !important;
 }
 
 .ls0 {
@@ -19534,9 +19534,9 @@ label.checkbox {
 }
 
 .redes a:hover{
-  background: #000;
-  color: #F1D61B;
-  border-radius: 4px;
+
+  color: #03ac8a;
+
 }
 
 
@@ -19614,7 +19614,7 @@ label.checkbox {
 
 .tabla_contenidos{
   padding: 20px;
-  background-color: #f9fbfc;
+  background-color: #e8f0f9;
   width: 100%;
 }
 
@@ -19789,6 +19789,7 @@ label.checkbox {
   padding: 15% 10%;
   border-radius: 15px;
   transition: 0.5s;
+  height: 100%;
 }
 
 .cuadro_plataformas img{
@@ -19797,8 +19798,16 @@ label.checkbox {
   margin-bottom: 20px;
 }
 
+.cuadro_plataformas p{
+  color: #073753!important;
+}
+
 .cuadro_plataformas:hover{
   background-color: #03ac8a;
+}
+
+.cuadro_plataformas:hover .hover_white{
+  color: #fff!important;
 }
 
 .cuadro_plataformas:hover p{
