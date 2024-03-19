@@ -1,6 +1,6 @@
 ---
 title: Gobierno Digital
-image: /assets/cms/p1.png
+image: /assets/cms/td-46.png
 description: Avanzamos hacia una gestión pública digitalizada, eficiente y
   centrada en el ciudadano
 date: 2024-03-19T15:01:09.010Z
