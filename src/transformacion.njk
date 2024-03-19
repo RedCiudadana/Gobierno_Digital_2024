@@ -114,21 +114,10 @@ permalink: "transformacion/index.html"
                         </div>
                         <div class="linea-verde"></div>
                         <h2 class="text-titles3">{{trans.data.title}}</h2>
-                        {{trans.content | safe}}
+                        {{trans.data.description | safe}}
                     </div>
                     {% endfor %}
 
-                    {% for trans in collections.transformacion%}
-                    <div class="py-4">
-                        <div class="centered-between">
-                            <p>{{trans.data.tiempo}}. de lectura</p>
-                            <a class="btn" href="">Leer Más <i class="fa-solid fa-right-long"></i></a>
-                        </div>
-                        <div class="linea-verde"></div>
-                        <h2 class="text-titles3">{{trans.data.title}}</h2>
-                        {{trans.content | safe}}
-                    </div>
-                    {% endfor %}
                   </div>
 
                   <div class="col-lg-3">
