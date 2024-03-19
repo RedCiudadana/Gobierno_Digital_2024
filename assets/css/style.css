@@ -19817,3 +19817,11 @@ label.checkbox {
 .cuadro_plataformas:hover p{
   color: #fff!important;
 }
+
+.overflow_5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

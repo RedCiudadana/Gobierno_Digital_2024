@@ -110,11 +110,13 @@ permalink: "transformacion/index.html"
                     <div class="py-4">
                         <div class="centered-between">
                             <p>{{trans.data.tiempo}}. de lectura</p>
-                            <a class="btn" href="">Leer Más <i class="fa-solid fa-right-long"></i></a>
+                            <a class="btn" href="{{trans.url}}">Leer Más <i class="fa-solid fa-right-long"></i></a>
                         </div>
                         <div class="linea-verde"></div>
                         <h2 class="text-titles3">{{trans.data.title}}</h2>
-                        {{trans.data.description | safe}}
+                        <div class="overflow_5">
+                            {{trans.content | safe}}
+                        </div>
                     </div>
                     {% endfor %}
 
