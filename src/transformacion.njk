@@ -126,23 +126,25 @@ permalink: "transformacion/index.html"
                     <div class="tabla_contenidos">
                         <h2 class="text-titles3">Tabla de Contenidos</h2>
                         <div class="linea-gris"></div>
-                        <p>
+                        {% for trans in collections.transformacion%}
+                        <a href="{{trans.url}}">
+                            {{trans.data.title}}
+                        </a>
+                        <div class="linea-gris"></div>
+                        {% endfor %}
+                        <!-- <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                         </p>
                         <div class="linea-gris"></div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                         </p>
-                        <div class="linea-gris"></div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                        </p>
-                        <div class="linea-gris"></div>
-                        <div class="d-flex">
+                        <div class="linea-gris"></div> -->
+                        <!-- <div class="d-flex">
                             <a href="#"><img style="width: 30px;" src="/assets/img/iconos/REDES-34.png"></a>
                             <a href="#"><img style="width: 30px;" src="/assets/img/iconos/REDES-35.png"></a>
                             <a href="#"><img style="width: 30px;" src="/assets/img/iconos/REDES-36.png"></a>
-                        </div>
+                        </div> -->
                     </div>
                   </div>
 

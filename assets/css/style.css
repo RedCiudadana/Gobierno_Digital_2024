@@ -19611,6 +19611,10 @@ label.checkbox {
   margin-bottom: 20px;
 }
 
+.linea-gris:last-child{
+  display: none;
+}
+
 .tabla_contenidos{
   padding: 20px;
   background-color: #e8f0f9;
