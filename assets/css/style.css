@@ -6119,12 +6119,12 @@ body:not(.top-search-open)
   position: relative;
   width: 100%;
   overflow: hidden;
-  background-image: url('/assets/img/slider/SLIDER-25.png');
+  background-image: url('/assets/img/slider/slider-final.png');
   background-size:cover;
 }
 
 .h-100-res{
-  height: 800px;
+  height: 600px;
 }
 
 @media (max-width:400px){
@@ -19666,25 +19666,25 @@ label.checkbox {
   .interes-1{
     position: absolute; 
     left: 40px; 
-    top: 350px;
+    top: 130px;
   }
   
   .interes-2{
     position: absolute; 
     left: 485px; 
-    top: 370px;
+    top: 140px;
   }
   
   .interes-3{
     position: absolute; 
     left: 800px; 
-    top: 280px;
+    top: 130px;
   }
   
   .interes-4{
     position: absolute; 
     left: 1150px; 
-    top: 350px;
+    top: 110px;
   }
 }
 
@@ -19693,25 +19693,25 @@ label.checkbox {
   .interes-1{
     position: absolute; 
     left: 0px; 
-    top: 350px;
+    top: 100px;
   }
   
   .interes-2{
     position: absolute; 
     left: 450px; 
-    top: 380px;
+    top: 130px;
   }
   
   .interes-3{
     position: absolute; 
     left: 800px; 
-    top: 300px;
+    top: 100px;
   }
   
   .interes-4{
     position: absolute; 
     left: 1150px; 
-    top: 350px;
+    top: 120px;
   }
 }
 
@@ -19720,25 +19720,25 @@ label.checkbox {
   .interes-1{
     position: absolute; 
     left: -100px; 
-    top: 450px;
+    top: 150px;
   }
   
   .interes-2{
     position: absolute; 
     left: 412px; 
-    top: 470px;
+    top: 170px;
   }
   
   .interes-3{
     position: absolute; 
     left: 830px; 
-    top: 350px;
+    top: 150px;
   }
   
   .interes-4{
     position: absolute; 
     left: 1250px; 
-    top: 450px;
+    top: 150px;
   }
 }
 
