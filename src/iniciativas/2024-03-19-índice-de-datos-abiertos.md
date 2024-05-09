@@ -1,6 +1,6 @@
 ---
 title: Índice de Datos Abiertos
-image: /assets/cms/p1.png
+image: /assets/cms/imagenes-iniciativas-03.png
 description: Evaluamos cómo nuestros datos abiertos impulsan la transparencia y
   la participación ciudadana.
 date: 2024-03-19T15:13:35.039Z
