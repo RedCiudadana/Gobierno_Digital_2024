@@ -1,6 +1,6 @@
 ---
 title: Catálogo de Trámites
-image: /assets/cms/p1.png
+image: /assets/cms/imagenes-iniciativas-05.png
 description: Consulta fácilmente todos los trámites disponibles en línea,
   optimizando tu tiempo y recursos.
 date: 2024-03-19T15:14:07.874Z
