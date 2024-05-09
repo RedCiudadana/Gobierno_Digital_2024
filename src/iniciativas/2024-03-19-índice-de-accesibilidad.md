@@ -1,6 +1,6 @@
 ---
 title: Índice de Accesibilidad
-image: /assets/cms/p1.png
+image: /assets/cms/imagenes-iniciativas-02.png
 description: Medimos la facilidad de acceso a nuestros servicios digitales para
   garantizar la inclusión.
 date: 2024-03-19T15:13:17.918Z
