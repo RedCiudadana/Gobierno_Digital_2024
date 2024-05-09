@@ -1,6 +1,6 @@
 ---
 title: Índice de GD
-image: /assets/cms/p1.png
+image: /assets/cms/imagenes-iniciativas_mesa-de-trabajo-1.png
 description: Monitoreamos el avance hacia un Gobierno Digital con indicadores
   claros y objetivos.
 date: 2024-03-19T15:12:37.187Z
