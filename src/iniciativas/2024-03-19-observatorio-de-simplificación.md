@@ -1,6 +1,6 @@
 ---
 title: Observatorio de Simplificación
-image: /assets/cms/p1.png
+image: /assets/cms/imagenes-iniciativas-04.png
 description: Analizamos y mejoramos continuamente los trámites para simplificar
   tu experiencia.
 date: 2024-03-19T15:13:49.765Z
