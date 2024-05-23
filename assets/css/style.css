@@ -6041,7 +6041,7 @@ body:not(.top-search-open)
 -----------------------------------------------------------------*/
 
 .text-slider{
-  color: #000!important;
+  color: #02324f!important;
   font-family: 'Metropolis-Bold', sans-serif!important;
   font-size: 30px!important;
   line-height: 35px;
@@ -6049,7 +6049,7 @@ body:not(.top-search-open)
 }
 
 .text-slider2{
-  color: #000!important;
+  color: #02324f!important;
   font-family: 'Metropolis-Regular', sans-serif!important;
   font-size: 20px!important;
   line-height: 25px;
@@ -6097,7 +6097,7 @@ body:not(.top-search-open)
 }
 
 .text-titles3{
-  color: #03324e!important;
+  color: #02324f!important;
   font-family: 'Metropolis-Bold', sans-serif!important;
   font-size: 20px!important;
   line-height: 35px;
@@ -6106,7 +6106,7 @@ body:not(.top-search-open)
 }
 
 .text-titles4{
-  color: #03324e!important;
+  color: #02324f!important;
   font-family: 'Metropolis-Regular', sans-serif!important;
   font-size: 18px!important;
   line-height: 35px;
@@ -19527,7 +19527,7 @@ label.checkbox {
 }
 
 .redes a{
-  color: #444;
+  color: #02324f;
   padding: 3px 5px;
   transition: all ease 0.5s;
 }
@@ -19619,6 +19619,15 @@ label.checkbox {
   padding: 20px;
   background-color: #e8f0f9;
   width: 100%;
+}
+
+.tabla_contenidos_a{
+  color: #02324f;
+  transition: 0.5s all ease;
+}
+
+.tabla_contenidos_a:hover{
+  color: #03ac8a;
 }
 
 .centered-between{

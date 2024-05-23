@@ -13,30 +13,26 @@
 		<section id="slider" class="bg-color">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
-					<div class="col-lg-5 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
-
-						<h2 class="text-slider mb-4" style="font-size:40px!important">{{title}}</h2>
-            <h6 class=" font-bold text-1xl text-gray-800">
-              {{ description }}
-            </h6>
-
-
-					</div>
-          <div class="col-lg-5 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4">
+					<div class="col-lg-8 col-md-12 col-sm-12 d-flex align-self-center flex-column pt-5 pb-0 py-lg-6 mb-0 my-lg-4 text-center">
 
             {% if title == "Gobierno Digital" %}
-						<img style="width: 50%;margin: auto;" src="/assets/img/iconos/TD-46.png">
+						<img style="width: 20%;margin: auto;" src="/assets/img/iconos/TD-46.png">
             {% elif title == "Interoperabilidad" %}
-            <img style="width: 50%;margin: auto;" src="/assets/img/iconos/TD-47.png">
+            <img style="width: 20%;margin: auto;" src="/assets/img/iconos/TD-47.png">
             {% elif title == "Datos Abiertos" %}
-            <img style="width: 50%;margin: auto;" src="/assets/img/iconos/TD-48.png">
+            <img style="width: 20%;margin: auto;" src="/assets/img/iconos/TD-48.png">
             {% elif title == "Accesibilidad e Inclusión Digital" %}
-            <img style="width: 50%;margin: auto;" src="/assets/img/iconos/TD-49.png">
+            <img style="width: 20%;margin: auto;" src="/assets/img/iconos/TD-49.png">
             {% elif title == "Tecnologías Emergentes" %}
-            <img style="width: 50%;margin: auto;" src="/assets/img/iconos/TD-50.png">
+            <img style="width: 20%;margin: auto;" src="/assets/img/iconos/TD-50.png">
             {% elif title == "Infraestructura Pública Digital" %}
-            <img style="width: 50%;margin: auto;" src="/assets/img/iconos/TD-51.png">
+            <img style="width: 20%;margin: auto;" src="/assets/img/iconos/TD-51.png">
             {% endif%}
+						<h2 class="text-slider mb-4" style="font-size:40px!important">{{title}}</h2>
+            <p class=" text-1xl">
+              {{ description }}
+            </p>
+
 
 					</div>
 				</div>
