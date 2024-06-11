@@ -1,6 +1,6 @@
 ---
 title: Índice de Gobierno Digital 2024
-image: /assets/cms/p1.png
+image: https://redciudadana.org/assets/img/posts/indice-de-gobierno-digital.png
 description: Conoce las últimas métricas de nuestro progreso hacia un Gobierno
   Digital plenamente funcional.
 grafica: <div class="flourish-embed flourish-chart"
