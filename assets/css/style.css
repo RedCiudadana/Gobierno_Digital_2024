@@ -19837,3 +19837,19 @@ label.checkbox {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.logos{
+  display: flex;
+  align-items: center;
+}
+
+.logos .logo1{
+  width: 160px;
+  height: 31px;
+  margin-right: 10px;
+}
+
+.logos .logo2{
+  width: 160px;
+  height: 51px;
+}
